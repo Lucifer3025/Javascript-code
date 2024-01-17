@@ -44,7 +44,7 @@ function listNFTs ()
 {  console.log("\nID: "+(i+1));
   console.log("\nName: "+Totalnft[i].name);
   console.log("Price: "+Totalnft[i].price);
-  console.log("Rating: "+Totalnft[i].Rating);
+  console.log("Rating: "+Totalnft[i].rating);
   console.log("Status: "+Totalnft[i].status);
 
 
@@ -53,15 +53,15 @@ function listNFTs ()
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-  console.log("\nTotal supply= "+Totalnft.length);
+  console.log("\nTotal supply= "+ Totalnft.length);
 
 }
 
 // call your functions below this line
-mintNFT("Piyush",5000000,10,"Sold");
-mintNFT("Rishav",4000000,10,"Available");
-mintNFT("Nikhil",3000000,10,"Sold");
-mintNFT("Rajan",2000000,10,"Availabel");
+mintNFT("Piyush","50,00,000",10,"Sold");
+mintNFT("Rishav","40,00,000",10,"Available");
+mintNFT("Nikhil","30,00,000",10,"Sold");
+mintNFT("Rajan","20,00,000",10,"Available");
 
 listNFTs();
 getTotalSupply();
